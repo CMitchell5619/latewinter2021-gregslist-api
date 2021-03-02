@@ -20,7 +20,7 @@ export default class DbConnection {
     } catch (e) {
       console.error(
         "[MONGOOSE CONNECTION ERROR]:",
-        "Invalid connection string"
+        "Invalid connection string",
       );
       return status;
     }
